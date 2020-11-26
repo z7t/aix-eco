@@ -1,0 +1,91 @@
+@font-face{
+    font-family: childfont;
+    src: url(BubblegumSans-Regular.woff);
+}
+@font-face{
+    font-family: roundedtext;
+    src: url(../css/Quicksand.woff);
+}
+body{
+    margin: 0;
+    background-image: url(../ima/09.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    display: flex;
+    background: #2D9CDB;
+}
+#familytext{
+    font-family: childfont;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+    color: white;
+    padding: 20px;
+}
+.loginbutton{
+    margin: 11px;
+    width: 110px;
+    font-weight: 900;
+    font-family: childfont;
+    background: #E9C148;
+    color: white;
+    height: 50px;
+    border: 0;
+    font-size: 25px;
+    box-shadow: 5px 4px 5px rgb(0 0 0 / 0.25);
+    padding: 10px;
+    border-radius: 10px;
+}
+.tabbarselect{
+    color: black;
+    cursor: pointer;
+    margin: auto;
+    font-family: roundedtext;
+}
+.tabbarselect > p, img{
+    margin: 20px;
+    margin-top: 0;
+}
+.tabbarselect > p{
+    margin-bottom: 0;
+}
+.countrytext{
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+footer > div > img{
+    margin-right: 10px !important;
+    width: 35px;
+}
+footer > div > span{
+    color: white;
+    font-size: 35px;
+    vertical-align: super;
+    font-family: childfont;
+}
+footer{
+    background: #2D9CDB;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer > div{
+    margin-left: 7%;
+    margin: auto;
+    display: flex;
+}
+footer > span{
+    font-family: childfont;
+    color: white;
+}
+footer > div > div > span{
+    color: white;
+    font-size: 35px;
+    vertical-align: super;
+    font-family: childfont;
+}
